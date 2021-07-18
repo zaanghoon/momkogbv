@@ -18,7 +18,7 @@ async def on_ready():
      # [discord.Status.online = 온라인],[discord.Status.idle = 자리비움],[discord.Status.dnd = 다른용무],[discord.Status.offline = 오프라인]
      await client.change_presence(status=discord.Status.online)
 
-     await client.change_presence(activity=discord.Game(name="게임 하는중"))
+     await client.change_presence(activity=discord.Game(name=""))
      #await client.change_presence(activity=discord.Streaming(name="스트림 방송중", url='링크'))
      #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="노래 듣는중"))
      #await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="영상 시청중"))
@@ -229,7 +229,7 @@ ni aemy가 전두엽 갈려버린 상태에서 애낳았누,,? 패드립 맛보�
          await message.channel.send(embed=embed)
 
         if message.content.startswith("!24"): 
-         embed=discord.Embed(title="드디어 공명봇이 24시간 호스팅 성공했습니다!")
+         embed=discord.Embed(title="드디어 공명봇이 24시간 호스팅에 성공했습니다!")
          embed.set_thumbnail(url="")
          embed.set_image(url="https://postfiles.pstatic.net/MjAyMTA3MTlfMjc5/MDAxNjI2NjM0OTY2NTUx.A-SfgRrsqgsS1m1Snq8GYLsah_NpAfEyGP2o0S9WMK4g.LmRmAoMz5OnnRHj1_8_O2rpSgnMWn9c0nJdN4FEL1zkg.JPEG.zaang030514/1626634851471-7.jpg?type=w773")
          await message.channel.send(embed=embed)
