@@ -199,9 +199,9 @@ ni aemy가 전두엽 갈려버린 상태에서 애낳았누,,? 패드립 맛보�
 6.짜오를 비유하자면 존나 밝은 촛불이라고 본다. 존나게 밝긴한데 초가 존나 빨리 타는 촛불? 짜장면이 분다고 보기보단 촛농이 녹아내리는 느낌이 더 강함""")
         
         if message.content.startswith("!인사"): 
-         embed=discord.Embed(title="융중의 공명이 기나긴 기다림 끝에 초려에서 나왔습니다. 과거의 관중과 장량처럼 여러분을 보좌할 것이며, 멈추지 않고 죽어서 멈추겠나이다")
+         embed=discord.Embed(title="융중의 공명이 사흘의 기다림 끝에 초려에서 나왔습니다. 더 많은 명령은 !공명으로 내랴주시길.")
          embed.set_thumbnail(url="")
-         embed.set_image(url="https://postfiles.pstatic.net/MjAyMTA3MTlfMzMg/MDAxNjI2NjMzMTcxNDI1.5FQQ_Rdn8tDY4YA8CQ55WsUdjeiWVaRSvRhifx1ZhNgg.V7vh2izVjUiikf1qH_hTThKHnKykEwQhjQd2umK9wp8g.JPEG.zaang030514/20210719_032222.jpg?type=w773")
+         embed.set_image(url="https://blogfiles.pstatic.net/MjAyMTA3MTlfMTEy/MDAxNjI2NjQ1NDkwNDU2.cwFQ7avySi3AO24WCYFJZwQG2V81FZZD-XtYISElbT4g.4hvLf6t9EbuTao8zbnC92_067fYJszaHG7am5Em2apwg.JPEG.zaang030514/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2021-07-19_065615.jpg")
          await message.channel.send(embed=embed)
 
         if message.content.startswith("!무한~"): 
