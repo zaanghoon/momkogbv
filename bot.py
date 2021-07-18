@@ -260,6 +260,7 @@ ni aemy가 전두엽 갈려버린 상태에서 애낳았누,,? 패드립 맛보�
 2021.07.19 node 파이썬 변환 성공 및 명령어 추가 입력
 
 ...24시간 호스팅 성공!""")
+        
          embed.set_thumbnail(url="")
          embed.set_image(url="https://postfiles.pstatic.net/MjAyMTA3MTlfNjMg/MDAxNjI2NjM3Nzc1OTA0.yubQ5zl5mnLO61_zGLt0kTYd4VlbSC7hIalu5Xetf58g.BhRenjPXfmjXaT9N3jk5mW7D1umOu9n2L-zvdmo8jMYg.JPEG.zaang030514/9b16bc74b72947d18f45be8a3c5c3922.jpg?type=w773")
          await message.channel.send(embed=embed)
