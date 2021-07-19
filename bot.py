@@ -36,17 +36,37 @@ async def on_message(message):
         if message.content.startswith("""!노래"""):
                await message.channel.send("""플레이리스트
 
-!p sequance 아이즈원
-!p not shy
+-Yaankee pop
+
+!p 루팡 3세 ost  
+!p living in america 
+!p James Brown - It's A Man's Man's Man's World 
+!P one night in bangkok 
+!p shape of you 
+!p come on your spurs 
+!p je crois robaerto bellarosa
+!p trndsttr
+!p FRIENDS anne marie 
+!P fly me to the moon 
+!p dont start now 
+!p vardy`s on 
+!p suffer 
+!p how long 
+!p boss bitch 
+!p havana 
+!p crazy over you
 !p bang!
 !p christopher - bad
 !p Johnny Stimson - Gimme Gimme
-!p crazy over you
-!p wannabe
 !p mad circuit - my fit
+!p khalid - talk
+
+-KPOP
+!p sequance 아이즈원
+!p not shy
+!p wannabe
 !p why dont we rain
 !p weki meki cool
-!p khalid - talk
 !p un village
 !p pretty savage
 !p 브레이브걸스 We Ride
