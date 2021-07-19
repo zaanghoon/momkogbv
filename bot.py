@@ -32,6 +32,9 @@ async def on_message(message):
 
         if message.content.startswith("!이지"):
             await message.channel.send("https://www.inven.co.kr/board/lol/3372/480627")
+            
+        if message.content.startswith("!김우건 남자친구"):
+            await message.channel.send("장경환입니다.")
         
         if message.content.startswith("""!노래"""):
                await message.channel.send("""플레이리스트
