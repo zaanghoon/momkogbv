@@ -33,9 +33,6 @@ async def on_message(message):
         if message.content.startswith("!이지"):
             await message.channel.send("https://www.inven.co.kr/board/lol/3372/480627")
             
-        if message.content.startswith("!김우건 남자친구"):
-            await message.channel.send("장경환입니다.")
-        
         if message.content.startswith("""!노래"""):
                await message.channel.send("""플레이리스트
 
@@ -158,6 +155,10 @@ ni aemy가 전두엽 갈려버린 상태에서 애낳았누,,? 패드립 맛보�
             await message.channel.send("""
 너도 참 불쌍해 어찌보면? 니 부모 유전자 받고 자라서 얼굴 모르는 ㅅ끼한테 욕도 시원하게 한사발 받고? 니 할미 유골통 까버리기 전에 그만해야지 ㅋㅋ 
 니네 부모는 니 조부모 모실 돈도 없어서 무덤 하나 못해주니까 산에 버리고 와서 까마귀밥 컷! 해버리는데 왜...그 꼴 보고도 사릴줄을 몰라? 형은 니 엄마 메차쿠ㅊ 범하러 간다 ㅋ""")
+            
+        if message.content.startswith("!김우건 남자친구"):
+            await message.channel.send("장경환입니다.")
+        
 
         if message.content.startswith("!투표"):
            vote = message.content[4:].split(" / ")
